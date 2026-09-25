@@ -1,0 +1,7 @@
+s = 0
+for i in range(5):
+    num = int(input())
+    s = s + num
+
+m = s / 5
+print(f"Média: {m}")

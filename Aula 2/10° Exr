@@ -1,0 +1,6 @@
+
+q = 0
+
+for i in range(1, 6):
+    q = i * i
+    print(f"O valor {i} seu quadrado {q}")

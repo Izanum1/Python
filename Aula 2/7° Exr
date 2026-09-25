@@ -1,0 +1,4 @@
+t = int(input("Digite o número da tabuada: "))
+
+for i in range(11):
+    print(f"{t} X {i} = {t*i}")

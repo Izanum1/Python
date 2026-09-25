@@ -1,0 +1,13 @@
+v = []
+nts = int(input("Digite a quantidade de notas: "))
+
+
+for i in range(nts):
+    n = float(input(f"Digite a nota {i + 1}: "))
+    v.append(n) # adiciona ao último vetor
+
+s = sum(v) # sum realiza a soma de todos os valores de vetores
+m = s / len(v)
+
+print("Notas digitas:", v)
+print("Média:", round(m, 2)) # round arrendondamento dos valores

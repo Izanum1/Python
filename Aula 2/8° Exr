@@ -1,0 +1,4 @@
+p = input("Digite uma palavra para se repetir: ")
+
+for i in range(5):
+    print(f"Palavra digitada: {p} \n")

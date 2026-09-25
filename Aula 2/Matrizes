@@ -1,0 +1,13 @@
+m = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+]
+
+print(m[0][0]) #linha 0, coluna 0 -> 1
+print(m[1][2]) #linha 1, coluna 2 -> 6
+
+for l in m:
+    for c in l:
+        print(c, end=" ")
+    print() #pula linha ao terminar cada linha da matriz

@@ -1,0 +1,11 @@
+nts = [8.5, 7.0, 9.2, 6.5]
+
+print(nts[0]) # primeiro elemento -> 8.5
+print(nts[-1]) # último elemento -> 6.5
+print(len(nts)) # quantidade de itens -> 4
+
+nts.append(10.0) # adiciona um item no final
+print(nts)
+
+for n in nts:
+    print("Nota:", n)

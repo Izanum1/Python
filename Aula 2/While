@@ -1,0 +1,7 @@
+s_c = "Duda"
+t = ""
+
+while t != s_c:
+    t = input("Digite a senha: ")
+
+print("Acesso liberado!")

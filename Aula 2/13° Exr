@@ -1,0 +1,4 @@
+n = ["Dom", "Duda", "Dudu", "Bryan", "Rillary"]
+
+for m in n:
+    print (m)
